@@ -1,5 +1,5 @@
 import { describe, it, expect, beforeEach } from 'vitest';
-import TechGlossary from './glossary.js';
+import TechGlossary from '../glossary.js';
 
 describe('TechGlossary - filterTerms()', () => {
   let glossary;

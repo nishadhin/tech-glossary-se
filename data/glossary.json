@@ -1,0 +1,157 @@
+{
+  "terms": [
+    {
+      "id": "api",
+      "term": "API",
+      "fullForm": "Application Programming Interface",
+      "definition": "A set of rules and protocols that allows different software applications to communicate with each other. APIs define the methods and data structures that developers can use to interact with external software components, operating systems, or microservices.",
+      "category": "Architecture",
+      "relatedTerms": ["REST", "GraphQL", "Microservices"],
+      "examples": [
+        "RESTful APIs for web services",
+        "Third-party payment gateway APIs"
+      ]
+    },
+    {
+      "id": "ci-cd",
+      "term": "CI/CD",
+      "fullForm": "Continuous Integration/Continuous Deployment",
+      "definition": "A method to frequently deliver apps to customers by introducing automation into the stages of app development. CI focuses on integrating code changes frequently, while CD automates the delivery of applications to selected infrastructure environments.",
+      "category": "DevOps",
+      "relatedTerms": ["Pipeline", "Automation", "Jenkins"],
+      "examples": [
+        "GitHub Actions workflows",
+        "Jenkins pipeline automation"
+      ]
+    },
+    {
+      "id": "docker",
+      "term": "Docker",
+      "fullForm": null,
+      "definition": "A platform that uses OS-level virtualization to deliver software in packages called containers. Containers are isolated from one another and bundle their own software, libraries, and configuration files.",
+      "category": "DevOps",
+      "relatedTerms": ["Kubernetes", "Containerization", "Microservices"],
+      "examples": [
+        "Dockerizing a Node.js application",
+        "Multi-stage Docker builds"
+      ]
+    },
+    {
+      "id": "graphql",
+      "term": "GraphQL",
+      "fullForm": null,
+      "definition": "A query language for APIs and a runtime for fulfilling those queries with existing data. GraphQL provides a complete and understandable description of the data in your API, gives clients the power to ask for exactly what they need, and makes it easier to evolve APIs over time.",
+      "category": "Architecture",
+      "relatedTerms": ["API", "REST", "Schema"],
+      "examples": [
+        "Apollo GraphQL server",
+        "GitHub GraphQL API"
+      ]
+    },
+    {
+      "id": "kubernetes",
+      "term": "Kubernetes",
+      "fullForm": null,
+      "definition": "An open-source container orchestration platform that automates the deployment, scaling, and management of containerized applications. It groups containers that make up an application into logical units for easy management and discovery.",
+      "category": "DevOps",
+      "relatedTerms": ["Docker", "Container Orchestration", "Cloud Native"],
+      "examples": [
+        "K8s cluster management",
+        "Horizontal pod autoscaling"
+      ]
+    },
+    {
+      "id": "microservices",
+      "term": "Microservices",
+      "fullForm": null,
+      "definition": "An architectural style that structures an application as a collection of small, autonomous services modeled around a business domain. Each service is independently deployable and scalable, and can be developed by a small team.",
+      "category": "Architecture",
+      "relatedTerms": ["API", "Docker", "Kubernetes"],
+      "examples": [
+        "Netflix's microservices architecture",
+        "Service mesh with Istio"
+      ]
+    },
+    {
+      "id": "oauth",
+      "term": "OAuth",
+      "fullForm": "Open Authorization",
+      "definition": "An open standard for access delegation, commonly used as a way for users to grant websites or applications access to their information on other websites without sharing passwords. OAuth 2.0 is the industry-standard protocol for authorization.",
+      "category": "Security",
+      "relatedTerms": ["Authentication", "JWT", "SSO"],
+      "examples": [
+        "Sign in with Google",
+        "OAuth 2.0 authorization code flow"
+      ]
+    },
+    {
+      "id": "rest",
+      "term": "REST",
+      "fullForm": "Representational State Transfer",
+      "definition": "An architectural style for designing networked applications. RESTful systems use standard HTTP methods (GET, POST, PUT, DELETE) and are stateless, meaning each request contains all the information needed to process it.",
+      "category": "Architecture",
+      "relatedTerms": ["API", "HTTP", "CRUD"],
+      "examples": [
+        "RESTful API endpoints",
+        "HATEOAS principles"
+      ]
+    },
+    {
+      "id": "typescript",
+      "term": "TypeScript",
+      "fullForm": null,
+      "definition": "A strongly typed programming language that builds on JavaScript, giving you better tooling at any scale. TypeScript adds optional static typing to JavaScript, which can help catch errors during development and improve code quality.",
+      "category": "Programming",
+      "relatedTerms": ["JavaScript", "Type Safety", "Static Analysis"],
+      "examples": [
+        "Type annotations and interfaces",
+        "Generics in TypeScript"
+      ]
+    },
+    {
+      "id": "websocket",
+      "term": "WebSocket",
+      "fullForm": null,
+      "definition": "A computer communications protocol providing full-duplex communication channels over a single TCP connection. WebSocket enables interaction between a web browser and a web server with lower overhead than HTTP, facilitating real-time data transfer.",
+      "category": "Networking",
+      "relatedTerms": ["Real-time", "HTTP", "Socket.io"],
+      "examples": [
+        "Live chat applications",
+        "Real-time stock trading platforms"
+      ]
+    },
+    {
+      "id": "jwt",
+      "term": "JWT",
+      "fullForm": "JSON Web Token",
+      "definition": "A compact, URL-safe means of representing claims to be transferred between two parties. JWTs are digitally signed and can be used for authentication and information exchange in web applications.",
+      "category": "Security",
+      "relatedTerms": ["OAuth", "Authentication", "Authorization"],
+      "examples": [
+        "Stateless authentication tokens",
+        "API authorization headers"
+      ]
+    },
+    {
+      "id": "agile",
+      "term": "Agile",
+      "fullForm": null,
+      "definition": "An iterative approach to software development and project management that helps teams deliver value to their customers faster and with fewer headaches. Instead of betting everything on a 'big bang' launch, agile teams deliver work in small, consumable increments.",
+      "category": "Methodology",
+      "relatedTerms": ["Scrum", "Sprint", "Kanban"],
+      "examples": [
+        "Two-week sprint cycles",
+        "Daily standup meetings"
+      ]
+    }
+  ],
+  "categories": [
+    "Architecture",
+    "DevOps",
+    "Security",
+    "Programming",
+    "Networking",
+    "Methodology"
+  ]
+}
+

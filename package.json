@@ -1,0 +1,33 @@
+{
+  "name": "tech-glossary-se",
+  "version": "1.0.0",
+  "description": "A modern, dynamic glossary of technical terms for software engineers",
+  "main": "glossary.js",
+  "type": "module",
+  "scripts": {
+    "start": "npx serve",
+    "dev": "npx serve -p 3000",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage"
+  },
+  "keywords": [
+    "glossary",
+    "tech",
+    "software-engineering",
+    "documentation",
+    "reference"
+  ],
+  "author": "Tech Glossary Contributors",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/tech-glossary-se.git"
+  },
+  "devDependencies": {
+    "vitest": "^1.0.4",
+    "happy-dom": "^12.10.3"
+  },
+  "dependencies": {}
+}
+
